@@ -1,4 +1,16 @@
 var recipes = {
-  flour: '1 cup',
-  sugar: '2 cups'
+  flour: 'cup',
+  sugar: 'cups'
 }
+  function updateObjectWithKeyAndValue(recipes, flour, cup) {
+    
+  }
+  function destructivelyUpdateObjectWithKeyAndValue(recipes, flour, cup) {
+    
+  }
+  function deleteFromObjectByKey(recipes, flour) {
+    
+  }
+  function destructivelyDeleteFromObjectByKey (recipes, flour){
+    
+  }
