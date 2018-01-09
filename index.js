@@ -6,7 +6,7 @@ var recipes = {
     return Object.assign({}, recipes, {[flour]: cup})
   }
   function destructivelyUpdateObjectWithKeyAndValue(recipes, flour, cup) {
-    recipes['flour'] = 'cup'
+    recipes[flour] = 'cup'
     return recipes
   }
   function deleteFromObjectByKey(recipes, flour) {
